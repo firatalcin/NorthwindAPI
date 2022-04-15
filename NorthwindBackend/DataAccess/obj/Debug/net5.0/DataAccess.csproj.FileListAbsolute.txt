@@ -1,0 +1,15 @@
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\bin\Debug\net5.0\DataAccess.dll
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\bin\Debug\net5.0\Entities.dll
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\bin\Debug\net5.0\Entities.pdb
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.dll
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
