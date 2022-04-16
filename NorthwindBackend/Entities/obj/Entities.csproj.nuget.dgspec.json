@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\Entities\\Entities.csproj": {}
+    "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\Entities\\Entities.csproj": {
+    "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\firatalcin\\.nuget\\packages\\",
-        "outputPath": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

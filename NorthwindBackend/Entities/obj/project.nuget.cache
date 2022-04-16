@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H/3yKPN1mrIU2xofClo/1fyjKT6+oVScVbr6bscKDDmeDLgV8iQPP7ZAvsHmQ9E3bV47zT7DuCM3XFnEuDQnyA==",
+  "dgSpecHash": "5sdrebAj4eLljh169lmhw8rR60uHVNyYlwiX3TalJ1zom9/vd2/npnkaO2WbXREfDcscl5we1fMZVeLVN23yzQ==",
   "success": true,
-  "projectFilePath": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

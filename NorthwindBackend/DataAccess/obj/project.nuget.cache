@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KKUqFF44zUQHPtlSjif0O7/xgog3kBWqkqGi2LdQRfzRNQQh/7qcaKdV3Wgdjwf1I1S84Nhi4iu0d4Bo5CINjg==",
+  "dgSpecHash": "pHEvjScLvPObekG5YIEZ94XtN90IsLuwfLcfa7gtKYfHoTjMl/EuQB1HennZLHoG+hgcYfyBQZ/8Fm57eFSFTA==",
   "success": true,
-  "projectFilePath": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

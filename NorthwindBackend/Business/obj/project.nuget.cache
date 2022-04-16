@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ym816UcJwn5he3hR37el0ppPmgV2qJZ1wrUSI9600RVjNcVPpqqPDP+d9eULv+NlRB0pACaxhIuI1IPgA+ixGg==",
+  "dgSpecHash": "ZuC9uoRSnOUTuAktvmeEDClxkULxaw6BemlBduSbKUKjdFAQhq/qgMPrQ06D8Ayebn/qfxuiyMx+BMAvDsg2EA==",
   "success": true,
-  "projectFilePath": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\Business\\Business.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

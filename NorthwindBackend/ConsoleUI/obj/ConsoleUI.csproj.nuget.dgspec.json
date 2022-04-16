@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\firatalcin\\.nuget\\packages\\",
-        "outputPath": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

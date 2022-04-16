@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GlPBoCF7yFBLqp2Y/nYqigoCadwWCxaIoGJqCPIhu3i4g9qvExW4gHsbDlbhfd5toi4jz6fiPqJPi2+1FXbQXg==",
+  "dgSpecHash": "4hawN+prwEjv0ZMM/0CQ0akN6hZfWE+Dh2sHcq3eLGeaKqhGJdwRgvtCp+dbJ81whF4C+OlAerbSWuCsXqI6Tw==",
   "success": true,
-  "projectFilePath": "D:\\Kurslar\\ASP.NET_MVC_CORE\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
