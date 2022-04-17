@@ -13,3 +13,11 @@ D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAcc
 D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
 D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.pdb
 D:\Kurslar\ASP.NET_MVC_CORE\NorthwindBackend\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.pdb
