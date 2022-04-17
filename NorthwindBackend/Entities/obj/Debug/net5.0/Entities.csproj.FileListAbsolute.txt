@@ -22,3 +22,6 @@ C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Ent
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\obj\Debug\net5.0\refint\Entities.dll
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\obj\Debug\net5.0\Entities.pdb
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\obj\Debug\net5.0\ref\Entities.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\bin\Debug\net5.0\Entities.runtimeconfig.json
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\bin\Debug\net5.0\Entities.runtimeconfig.dev.json
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\obj\Debug\net5.0\Entities.genruntimeconfig.cache

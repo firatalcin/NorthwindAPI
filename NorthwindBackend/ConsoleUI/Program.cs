@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Business.Concrete;
+using DataAccess.Concrete.EntityFramework;
+using System;
 
 namespace ConsoleUI
 {
@@ -6,7 +8,14 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ProductManager productManager = new ProductManager(new EfProductDal());
+            
+            foreach (var item in productManager.GetAll())
+            {
+                Console.WriteLine(item.ProductName + " " + item.UnitsInStock);
+            }
+
+
         }
     }
 }

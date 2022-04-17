@@ -21,3 +21,13 @@ C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Dat
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.dll
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.json
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\bin\Debug\net5.0\DataAccess.runtimeconfig.dev.json
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\bin\Debug\net5.0\Entities.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\bin\Debug\net5.0\Entities.pdb
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\DataAccess.genruntimeconfig.cache
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll

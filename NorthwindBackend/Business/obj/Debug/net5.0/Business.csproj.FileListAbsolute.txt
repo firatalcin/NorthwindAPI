@@ -23,3 +23,15 @@ C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Bus
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\Business.dll
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\refint\Business.dll
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\Business.pdb
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Business.deps.json
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Business.runtimeconfig.json
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Business.runtimeconfig.dev.json
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Business.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Business.pdb
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\DataAccess.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Entities.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Entities.pdb
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\Business.genruntimeconfig.cache
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\ref\Business.dll

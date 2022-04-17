@@ -16,8 +16,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (NorthwindContext context = new NorthwindContext())
             {
-                var addedEntity = context.Entry(entity);
-                addedEntity.State = EntityState.Modified;
+                context.Add(entity);
                 context.SaveChanges();
             }
         }
@@ -26,8 +25,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (NorthwindContext context = new NorthwindContext())
             {
-                var deletedEntity = context.Entry(entity);  
-                deletedEntity.State = EntityState.Deleted;
+                context.Remove(entity);
                 context.SaveChanges();
             }
         }
@@ -36,7 +34,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (NorthwindContext context = new NorthwindContext())
             {
-                
+                return context.Set<Product>().SingleOrDefault(filter);
             }
         }
 
@@ -44,7 +42,9 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (NorthwindContext context = new NorthwindContext())
             {
-                return context.Set<Product>().ToList();
+                return filter == null ?
+                    context.Set<Product>().ToList() :
+                    context.Set<Product>().Where(filter).ToList();
             }
         }
 
@@ -52,8 +52,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (NorthwindContext context = new NorthwindContext())
             {
-                var updatedEntity = context.Entry(entity);
-                updatedEntity.State = EntityState.Modified;
+                context.Update(entity);
                 context.SaveChanges();
             }
         }
