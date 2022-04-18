@@ -35,3 +35,5 @@ C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Bus
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\Business.csproj.CopyComplete
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\Business.genruntimeconfig.cache
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\obj\Debug\net5.0\ref\Business.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Core.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Business\bin\Debug\net5.0\Core.pdb

@@ -25,3 +25,6 @@ C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Ent
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\bin\Debug\net5.0\Entities.runtimeconfig.json
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\bin\Debug\net5.0\Entities.runtimeconfig.dev.json
 C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\obj\Debug\net5.0\Entities.genruntimeconfig.cache
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\bin\Debug\net5.0\Core.dll
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\bin\Debug\net5.0\Core.pdb
+C:\Users\firatalcin\Documents\GitHub\NorthwindAPIAndAngular\NorthwindBackend\Entities\obj\Debug\net5.0\Entities.csproj.CopyComplete
