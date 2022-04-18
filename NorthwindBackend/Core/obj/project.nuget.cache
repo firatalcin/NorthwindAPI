@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4e1PKRuBpUzdotzElq7K4ZDeIZEoGKHSrWNeoDpLrEQcKkkd80Ps/SQU4LOqi3KFK84YBDjtsHUMytKyXLcqJg==",
+  "dgSpecHash": "HqTBsErsr1Hok5PFED6goL+6n3HQvu7FGQr0GopsA4hVwCvwVYefe8kJJBk+VmRDtxyGJE78YJKh/oUkZyFg7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\firatalcin\\Documents\\GitHub\\NorthwindAPIAndAngular\\NorthwindBackend\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\firatalcin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\firatalcin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
