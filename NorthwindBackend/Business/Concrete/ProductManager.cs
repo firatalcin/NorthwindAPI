@@ -1,4 +1,9 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Abstract.Results;
+using Core.Utilities.Concrete.Results;
+using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -19,45 +24,55 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
-        public void Add(Product product)
+        public IResult Add(Product product)
         {
+            if(product.ProductName.Length < 2)
+            {
+                return new ErrorResult(Messages.ProductAddedInvalid);
+            }
             _productDal.Add(product);
+            return new SuccessResult(Messages.ProductAdded);
         }
 
-        public void Delete(Product product)
+        public IResult Delete(Product product)
         {
             _productDal.Delete(product);
+            return new Result(true, "Ürün Silindi");
         }
 
-        public List<Product> GetAll()
+        public IResult Update(Product product)
+        {
+            _productDal.Update(product);
+            return new Result(true, "Ürün Güncellendi");
+        }
+
+        public IDataResult<List<Product>> GetAll()
         {
             //iş kodları
             return _productDal.GetAll();
+            return new DataResult<List<Product>>();
         }
 
-        public List<Product> GetAllByCategoryId(int categoryId)
+        public IDataResult<List<Product>> GetAllByCategoryId(int categoryId)
         {
             return _productDal.GetAll(x => x.CategoryId == categoryId);
         }
 
-        public Product GetById(int id)
+        public IDataResult<Product> GetById(int id)
         {
             return _productDal.Get(x => x.ProductId == id);
         }
 
-        public List<Product> GetByUnitPrice(decimal min, decimal max)
+        public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
             return _productDal.GetAll(x => x.UnitPrice <= max && x.UnitPrice >= min);
         }
 
-        public List<ProductDetailDto> GetProductDetails()
+        public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
             return _productDal.GetProductDetails();
         }
 
-        public void Update(Product product)
-        {
-            _productDal.Update(product);
-        }
+       
     }
 }
