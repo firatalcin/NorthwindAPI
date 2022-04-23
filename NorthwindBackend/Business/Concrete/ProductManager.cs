@@ -5,6 +5,7 @@ using Business.ValidationRules.FluentValidation;
 using Core.Aspect.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Abstract.Results;
+using Core.Utilities.Business;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
@@ -22,22 +23,30 @@ namespace Business.Concrete
     public class ProductManager : IProductService
     {
         IProductDal _productDal;
+        ICategoryService _categoryService;
 
-        public ProductManager(IProductDal productDal)
+        public ProductManager(IProductDal productDal, ICategoryService categoryService)
         {
             _productDal = productDal;
+            _categoryService = categoryService;
         }
 
 
-        [ValidationAspect(typeof(ProductValidator))] 
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Success)
+            IResult result = BusinessRules.Run(
+                CheckIfProductCountOfCategoryCorrect(product.CategoryId),
+                CheckIfProductNameExists(product.ProductName),
+                CheckIfCategoryCountLimitExceded()
+                );
+
+            if (result == null)
             {
                 _productDal.Add(product);
                 return new SuccessResult(Messages.ProductAdded);
             }
-            return new ErrorResult(Messages.ProductAddedInvalid);         
+            return new ErrorResult(Messages.ProductAddedInvalid);
         }
 
 
@@ -55,9 +64,15 @@ namespace Business.Concrete
         [ValidationAspect(typeof(ProductValidator))]
         public IResult Update(Product product)
         {
-            if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Success && CheckIfProductNameExists(product.ProductName).Success)
+            IResult result = BusinessRules.Run(
+                CheckIfProductCountOfCategoryCorrect(product.CategoryId),
+                CheckIfProductNameExists(product.ProductName),
+                CheckIfCategoryCountLimitExceded()
+                );
+
+            if (result == null)
             {
-                _productDal.Update(product);
+                _productDal.Add(product);
                 return new SuccessResult(Messages.ProductUpdated);
             }
             return new ErrorResult(Messages.ProductUpdatedInvalid);
@@ -91,7 +106,7 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
-        
+
         private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
         {
             var result = _productDal.GetAll(x => x.CategoryId == categoryId);
@@ -105,7 +120,7 @@ namespace Business.Concrete
         private IResult CheckIfProductNameExists(string productName)
         {
             var result = _productDal.GetAll(x => x.ProductName == productName);
-            if(result.Any())
+            if (result.Any())
             {
                 return new ErrorResult(Messages.ProductNameAlreadyExists);
             }
@@ -113,5 +128,14 @@ namespace Business.Concrete
 
         }
 
+        private IResult CheckIfCategoryCountLimitExceded()
+        {
+            var result = _categoryService.GetAll();
+            if (result.Data.Count > 15)
+            {
+                return new ErrorResult(Messages.CategoryLimitExceded);
+            }
+            return new SuccessResult();
+        }
     }
 }
