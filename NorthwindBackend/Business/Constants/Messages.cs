@@ -16,5 +16,9 @@ namespace Business.Constants
         public static string ProductDeletedInvalid = "Ürün Silinemedi";
         public static string ProductUpdatedInvalid = "Ürün Güncellenemedi";
         public static string ProductListedInvalid = "Ürünler Listelenemedi";
+
+        public static string ProductCountOfCategoryError = "En fazla 10 ürün olabilir.";
+
+        public static string ProductNameAlreadyExists = "Bu ürün daha önceden eklenmiştir";
     }
 }

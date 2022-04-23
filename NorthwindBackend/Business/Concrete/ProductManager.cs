@@ -29,17 +29,16 @@ namespace Business.Concrete
         }
 
 
-        //[ValidationAspect(typeof(ProductValidator))] 
+        [ValidationAspect(typeof(ProductValidator))] 
         public IResult Add(Product product)
         {
-
-            _productDal.Add(product);
-            return new SuccessResult(Messages.ProductAdded);
-
+            if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Success)
+            {
+                _productDal.Add(product);
+                return new SuccessResult(Messages.ProductAdded);
+            }
+            return new ErrorResult(Messages.ProductAddedInvalid);         
         }
-
-
-
 
 
 
@@ -53,14 +52,15 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ProductDeleted);
         }
 
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Update(Product product)
         {
-            if (product.ProductName.Length < 2)
+            if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Success && CheckIfProductNameExists(product.ProductName).Success)
             {
-                return new ErrorResult(Messages.ProductUpdatedInvalid);
+                _productDal.Update(product);
+                return new SuccessResult(Messages.ProductUpdated);
             }
-            _productDal.Update(product);
-            return new SuccessResult(Messages.ProductUpdated);
+            return new ErrorResult(Messages.ProductUpdatedInvalid);
         }
 
         public IDataResult<List<Product>> GetAll()
@@ -91,7 +91,27 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
+        
+        private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
+        {
+            var result = _productDal.GetAll(x => x.CategoryId == categoryId);
+            if (result.Count() > 10)
+            {
+                return new ErrorResult(Messages.ProductCountOfCategoryError);
+            }
+            return new SuccessResult();
+        }
 
+        private IResult CheckIfProductNameExists(string productName)
+        {
+            var result = _productDal.GetAll(x => x.ProductName == productName);
+            if(result.Any())
+            {
+                return new ErrorResult(Messages.ProductNameAlreadyExists);
+            }
+            return new SuccessResult();
+
+        }
 
     }
 }
