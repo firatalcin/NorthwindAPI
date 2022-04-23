@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.CCS;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspect.Autofac.Validation;
@@ -28,12 +29,13 @@ namespace Business.Concrete
         }
 
 
-        [ValidationAspect(typeof(ProductValidator))]
+        //[ValidationAspect(typeof(ProductValidator))] 
         public IResult Add(Product product)
         {
-        
+
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
+
         }
 
 
