@@ -53,7 +53,7 @@ namespace Business.Concrete
 
 
 
-        public IResult Delete(Product product)
+        public IResult Delete(Product product) 
         {
             if (product.ProductName.Length < 2)
             {
