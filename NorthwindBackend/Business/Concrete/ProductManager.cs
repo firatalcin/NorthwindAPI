@@ -80,6 +80,7 @@ namespace Business.Concrete
             return new ErrorResult(Messages.ProductUpdatedInvalid);
         }
 
+        //[CacheAspect] key,value
         public IDataResult<List<Product>> GetAll()
         {
             if (DateTime.Now.Hour == 24)
